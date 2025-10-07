@@ -7,7 +7,7 @@ workers_dev = true
 routes = [
   
   { pattern = "collection.linefriends.com.redirect.benx.workers.dev", custom_domain = true },  
-  { pattern = "quiz.vidio.com.redirect.benx.workers.dev, custom_domain = true },  
+  { pattern = "quiz.vidio.com.redirect.benx.workers.dev", custom_domain = true },  
   { pattern = "df.game.naver.com.redirect.benx.workers.dev", custom_domain = true },
   { pattern = "ava.game.naver.com.redirect.benx.workers.dev", custom_domain = true },
   { pattern = "account.pmang.game.naver.com.benx.workers.dev", custom_domain = true },
