@@ -2,6 +2,16 @@ name = "redirect"
 main = "_worker.js"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat_v2"]
+workers_dev = true
+
+routes = [
+  
+  { pattern = "collection.linefriends.com.redirect.benxx.workers.dev", custom_domain = true },  
+  { pattern = "df.game.naver.com.redirect.benxx.workers.dev", custom_domain = true },
+  { pattern = "ava.game.naver.com.redirect.benxx.workers.dev", custom_domain = true },
+  { pattern = "account.pmang.game.naver.com.redirect.benxx.workers.dev", custom_domain = true },
+
+  ]
 
 [unsafe.metadata.observability]
 enabled = true
